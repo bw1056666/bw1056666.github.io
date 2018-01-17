@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>reZOOM</ShortName>
+	<Description>Search reZOOM - O clube da notícia</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://rezoom.com.br/?s={searchTerms}&amp;feed=atom" />
+	<Url type="rss+xml" template="https://rezoom.com.br/?s={searchTerms}&amp;feed=rss2" />
+	<Url type="text/html" template="https://rezoom.com.br/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://rezoom.com.br/osd.xml" />
+	<LongName>reZOOM</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://rezoomvinidani.files.wordpress.com/2018/01/cropped-rz-c3adcone-app-2.png?w=16</Image>
+	<Image height="64" width="64" type="image/png">https://rezoomvinidani.files.wordpress.com/2018/01/cropped-rz-c3adcone-app-2.png?w=64</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>blog</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>private</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>pt-BR</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://rezoom.com.br</moz:SearchForm>
+</OpenSearchDescription>
